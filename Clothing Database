@@ -1,0 +1,18 @@
+Create Table Clothing (ID integer primary key, name text, cost integer, Sold Integer);
+
+Insert into clothing Values
+(1, 'Long Sleeve', 10, 5),
+(2, 'Short Sleeve', 7, 10),
+(3, 'Sleeveless', 5, 13),
+(4, 'Tank Top', 5, 15),
+(5, 'Oversize Tee', 7, 12)
+;
+
+
+--Display the database base on price.
+Select * From Clothing
+Order By Cost 
+
+--Display the database on most items sold
+Select * From Clothing 
+Order by Sold 
